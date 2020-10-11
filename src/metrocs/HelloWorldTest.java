@@ -2,7 +2,6 @@ package metrocs;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +9,7 @@ import org.junit.jupiter.api.Test;
  * Tests for class HelloWorld.
  *
  * @author  Dr. Jody Paul
- * @version 1.1.0
+ * @version 1.1.1
  */
 public class HelloWorldTest {
     @Test

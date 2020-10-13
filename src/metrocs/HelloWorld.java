@@ -22,6 +22,6 @@ public class HelloWorld {
    * @return the constructed greeting.
    */
   public String sayHello(final String toWhom) {
-    return "Hello " + toWhom;
+    return "Hello" + toWhom;
   }
 }

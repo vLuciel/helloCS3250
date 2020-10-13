@@ -21,8 +21,17 @@ public class HelloWorld {
    * @param toWhom to whom the greeting is directed
    * @return the constructed greeting.
    */
-  public String sayHello(String toWhom) {
-	toWhom = "!";
-    return "Hellooo" + toWhom;
+  public String sayHello(final String toWhom) {
+
+    if (toWhom == null){
+      return "Hello!";
+    } else if (toWhom == "world"){
+
+      return "Hello " + toWhom;
+    } else if (toWhom == "earth"){
+
+      return "Hello " + "earth";
+    }
+    return "Hello" + toWhom;
   }
 }
